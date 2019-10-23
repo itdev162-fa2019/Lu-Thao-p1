@@ -19,7 +19,7 @@ namespace Persistence.Migrations
             migrationBuilder.InsertData(
                 table: "Values",
                 columns: new[] { "Id", "Name" },
-                values: new object[] { 3, "William" });
+                values: new object[] { 3, "Sara" });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
